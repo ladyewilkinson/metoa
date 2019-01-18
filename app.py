@@ -38,5 +38,5 @@ def get_simple(id):
     return render_template('simple.html', o=o)
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     app.run(port=5000)
