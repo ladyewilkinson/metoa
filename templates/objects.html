@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#ChineseArt(ifacts)</title>
+</head>
+<body>
+<ul>
+    {% for o in objs %}
+    <li><a href = "objects/{{ o.id }}">{{ o.id }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>
